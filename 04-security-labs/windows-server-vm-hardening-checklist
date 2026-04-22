@@ -1,0 +1,19 @@
+# System Hardening Checklist for a Windows Server Virtual Machine
+
+## System Description
+This checklist is for a Windows Server virtual machine used for class labs and basic server practice in VMware Workstation.
+
+## Checklist
+1. Enable Windows updates.
+2. Restrict remote access to only what is needed.
+3. Use a strong administrator password.
+4. Enable and verify Windows Firewall.
+5. Disable or remove unused roles, features, and services.
+6. Use only the network adapters the VM actually needs.
+7. Configure backups or take clean VM snapshots before major changes.
+8. Enable BitLocker or other encryption if the VM stores sensitive data.
+
+## What risks still remain?
+- User mistakes can still weaken security.
+- If the host computer is compromised, the VM can still be at risk.
+- Weak network design can still expose the VM.
